@@ -40,5 +40,5 @@ endfunction
 function void ahb_agt_top::end_of_elaboration_phase(uvm_phase phase);
 	super.end_of_elaboration_phase(phase);
 	uvm_top.print_topology;
-endfunctiommn
+endfunction
 
